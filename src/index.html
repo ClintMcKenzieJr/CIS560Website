@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS560Website</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="CIS560Website.css">
+</head>
+
+<body id="body">
+    <h1>Team Info</h1>
+    <button type="button" id="signIn">Sign In</button>
+    <br>
+    <form id="teamForm"> <!--Make this pop up on clicking a team? -->
+        <label for="teamName">Team Name:</label>
+        <input type="text" id="teamName" name="teamName">
+        <label for="event">Event:</label>
+        <input type="text" id="event" name="event">
+        <label for="numFields">Number of Fields:</label>
+        <input type="text" id="numFields" name="numFields">
+        <div>
+            <div class="teamDataDescriptors"><span>Name</span></div>
+            <div class="teamDataDescriptors"><span>Value</span></div>
+        </div>
+        <button type="button" class="submit" id="teamSubmit">Submit</button>
+    </form>
+    <br>
+    <label for="searchByTeamName">Search:</label>
+    <input type="text" id="searchByTeamName" name="searchByTeamName">
+    <br>
+    <br>
+    <div id="div2"></div>
+</body>
+</html>
+<!-- Use 'serve src/' in the terminal to test! -->
