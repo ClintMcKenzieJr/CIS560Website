@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCCCTestHomepage</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="CIS560Website.css">
+</head>
+<body id="body">
+    <!--<h1>User Info</h1>
+    <p id="addUserPara">Add User</p>
+    <form id="myForm">
+        <label for="userID">User ID:</label>
+        <input type="text" id="userID" name="userID">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <label for="picURL">Picture URL:</label>
+        <input type="text" id="picURL" name="picURL">
+        <button type="button" class="submit" id="submit">Submit</button>
+    </form>
+    <br>
+    <div id="div1"></div>-->
+    <label id="deleteme">Hi</label>
+
+    <!-- Delete this later! -->
+    <form id="teamForm"> 
+        <label for="teamName">Team Name:</label>
+        <input type="text" id="teamName" name="teamName">
+        <label for="event">Event:</label>
+        <input type="text" id="event" name="event">
+        <label for="numFields">Number of Fields:</label>
+        <input type="text" id="numFields" name="numFields">
+        <div>
+            <div class="teamDataDescriptors"><span>Name</span></div>
+            <div class="teamDataDescriptors"><span>Value</span></div>
+        </div>
+        <button type="button" class="submit" id="teamSubmit">Submit</button>
+    </form>
+
+
+
+
+    <h1>Team Info</h1>
+    <button type="button" id="signIn">Sign In</button>
+    <br>
+
+    <select name="addInfoDropbox" id="addInfoDropbox"> 
+        <option value="none">Add Info?</option>
+        <option value="playerGameLog">Player Game Log</option>
+        <option value="player">Player</option>
+    </select>
+
+    <!-- Use forms for inputting data -->
+    <!-- Hide forms, show based on clicking a dropdown menu for adding? -->
+    <!-- Maybe use a pop-up to confirm updates (as opposed to inserts)? -->
+    <form id="playerGameLog">
+        <!-- ALL the info -->
+        <label for="playerName">Player Name:</label>
+        <input type="text" id="playerName" name="playerName">
+        <br>
+        <label for="teamName">Team Name:</label>
+        <input type="text" id="teamName" name="teamName">
+        <!-- How do we connect it to a specific game..? -->
+        <br>
+        <button type="button" class="submit" id="teamSubmit">Submit</button>
+    </form>
+
+    <form id="player">
+        <label for="playerName">Player Name:</label>
+        <input type="text" id="playerName" name="playerName">
+        <br>
+        <label for="startDate">Start Date:</label>
+        <input type="text" id="startDate" name="startDate">
+        <br>
+        <!-- How do we show Retire Date is nullable? -->
+        <label for="retireDate">Retire Date:</label>
+        <input type="text" id="retireDate" name="retireDate">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="text" id="birthday" name="birthday">
+        <br>
+        <button type="button" class="submit" id="teamSubmit">Submit</button>
+    </form>
+
+    <br>
+
+    <!-- Search bar -->
+    <label for="searchByTeamName" id="search">Search:</label>
+    <input type="text" id="searchByTeamName" name="searchByTeamName">
+    <br>
+    <br>
+
+    <!-- Currently where team info is stored -->
+    <div id="div2"></div>
+</body>
+</html>
+<!-- Use 'serve src/' in the terminal to test! -->

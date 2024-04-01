@@ -1,0 +1,167 @@
+body {
+    background-color:rgba(30, 30, 30, 1);
+}
+h1 {
+    text-align: center;
+    color: rgba(0, 122, 204, 1);
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+form {
+    display: none;
+}
+form.active {
+    display: block;
+}
+#signIn {
+    display: inline-block;
+    line-height: 180%;
+    width: 6%;
+    top: 0%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-size: 18px;
+    margin-left: 2%;
+    background-color: rgb(67, 67, 67);
+    font-weight: bold;
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
+#addInfoDropbox {
+    display: inline-block;
+    line-height: 180%;
+    width: 110px;
+    top: 0%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    font-size: 16px;
+    margin-left: 2%;
+    background-color: rgb(67, 67, 67);
+    font-weight: bold;
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
+/*#addUserPara {
+    color:rgb(0, 130, 204);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#myForm {
+    margin-left: 10px;
+}*/
+label {
+    color:rgb(0, 139, 204);
+    font-weight: bold;
+    font-size: 18px;
+    width: 110px;
+    display: inline-block;
+}
+#search {
+    display: inline;
+}
+input {
+    background-color: rgb(78, 78, 81);
+    border-radius: 5px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(173, 173, 173);
+    width: 12%;
+}
+input:focus {
+    outline: none;
+    border:1px solid black;
+    box-shadow: 0 0 5px #719ECE;
+    margin-left: 3px;
+    margin-top: 4px;
+}
+.submit {
+    border-radius: 10px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+    color: rgb(0, 168, 246);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(67, 67, 67);
+    line-height: 170%;
+    margin-top: 1%;
+}
+.deleteButton {
+    border-radius: 5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+    color: rgb(0, 168, 246);
+    background-color: rgb(67, 67, 67);
+}
+/*.userData {
+    color: rgb(173, 173, 173);
+    margin-left: 10px;
+}*/
+#addTeamPara {
+    color:rgb(0, 130, 204);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#teamForm {
+    margin-left: 10px;
+}
+#numFields {
+    width: 24px;
+}
+.teamDataDescriptors {
+    color:rgb(0, 139, 204);
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 2%;
+    margin-top: .5%;
+    width: 10%;
+    display: inline-block;
+}
+#div2 {
+    color: rgb(173, 173, 173);
+}
+.arrow {
+    border: solid rgb(173, 173, 173);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.team {
+    font-size: 18px;
+    color:rgb(0, 139, 204);
+}
+.eventName {
+    font-weight: bold;
+    border: solid white;
+    border-width: 0 0 1px 0;
+}
+@media only screen and (max-width: 1250px) {
+    #signIn {
+        width: 60px;
+        position: fixed;
+        top: 40px;
+        right: 15px;
+    }
+}
